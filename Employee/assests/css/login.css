@@ -1,0 +1,46 @@
+body{
+    background:linear-gradient(to right,#4587d1, #6a65bf);
+    height:100vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+
+  
+}
+.page{
+    width:30%;
+    height:500px;
+    margin:0px auto;
+    background-color: white;
+    border-radius:10px;
+    display:flex;
+    justify-content: center;
+   
+}
+.page form{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    gap:25px;
+    width:80%;
+    text-align: center;
+}
+button{
+    background:linear-gradient(to right,#4587d1,#6a65bf);
+    color:white !important;
+
+}
+h2{
+    font-weight: bolder;
+}
+.input{
+    outline:0;
+    border:none;
+    border-bottom: 1px solid black;
+    width:100%;
+    
+}
+#cred{
+    display:none;
+}
+
